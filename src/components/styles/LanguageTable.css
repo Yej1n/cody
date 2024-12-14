@@ -1,0 +1,132 @@
+.chart-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.chart-container {
+  flex: 1 1 calc(33.333% - 20px);
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+}
+
+.chart-container h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+
+.end-chart-container{
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.01);
+  margin: 20px 0;  flex-direction: row;
+  width: 25%;
+  height: 365px;
+}
+
+.pie-chart-container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.01);
+  margin: 20px 0;  flex-direction: row;
+  width: 40%;
+  height: 365px;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+
+.language-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.01);
+}
+
+.language-table thead {
+  font-weight: 600;
+  text-align: left;
+}
+
+.language-table th {
+  padding: 12px;
+  font-size: 14px;
+  color: #9E9FA6;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.language-table tbody tr {
+  margin-bottom: 2%;
+}
+
+.language-table td {
+  padding: 12px;
+  font-size: 14px;
+  color: #374151;
+  margin-bottom: 2%;
+
+}
+
+.language-table tbody tr:hover {
+  background-color: #fbf8fcda;
+}
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .language-table th,
+  .language-table td {
+      font-size: 12px;
+      padding: 8px 10px;
+  }
+}
+
+
+/* 바 차트 막대 스타일 */
+.bar-chart-container .recharts-bar {
+  border-radius: 4px;
+}
+
+
+/* 파이 차트 스타일 */
+.pie-chart-container canvas {
+  max-width: 100%;
+  margin: auto;
+}
+
+/* 반응형 설정 */
+@media (max-width: 768px) {
+  h3 {
+    font-size: 16px;
+  }
+
+  .language-table th,
+  .language-table td {
+    font-size: 12px;
+    padding: 8px;
+  }
+
+  .end-chart-container,
+  .pie-chart-container {
+    padding: 15px;
+  }
+}
+

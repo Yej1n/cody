@@ -1,0 +1,75 @@
+.header {
+  display: flex;
+  align-items: center;
+  gap: 2%;
+  width: 100%;
+  height: 70px;
+  background-color: #ffffff;
+  padding: 0 20px;
+  top: 0; /* 위쪽으로 붙임 */
+  left: 0; /* 왼쪽으로 붙임 */
+  z-index: 10; /* 다른 요소 위에 표시 */
+}
+
+.logo img {
+  width: 28px;
+  height: 28px;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 16px;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: #d4d4d5;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.nav-menu a:hover {
+  color: #6b66c8;
+}
+
+.nav-menu a.active {
+  color: #6b66c8;
+  font-weight: bold;
+}
+
+.search-bar {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.search-bar input {
+  width: 676px;
+  height: 36px;
+  padding: 0 12px;
+  border: 1px solid #d4d4d5;
+  border-radius: 18px;
+  font-size: 14px;
+  color: #000000;
+  
+}
+
+.search-bar input::placeholder {
+  color: #d4d4d5;
+}
+
+  .search-bar button {
+    padding: 0 16px;
+    height: 36px;
+    border: none;
+    border-radius: 18px;
+    background-color: #6b66c8;
+    color: #ffffff;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .search-bar button:hover {
+    background-color: #5a55b2;
+  }

@@ -1,0 +1,72 @@
+[
+    {
+        "language": "Python",
+        "github": 30,
+        "stackoverflow": 2217680,
+        "google_trend": 93100000,
+        "trend_score": 95317710
+    },
+    {
+        "language": "JavaScript",
+        "github": 30,
+        "stackoverflow": 2537111,
+        "google_trend": 77300000,
+        "trend_score": 79837141
+    },
+    {
+        "language": "Java",
+        "github": 30,
+        "stackoverflow": 1922531,
+        "google_trend": 70200000,
+        "trend_score": 72122561
+    },
+    {
+        "language": "C#",
+        "github": 30,
+        "stackoverflow": 1625611,
+        "google_trend": 56200000,
+        "trend_score": 57825641
+    },
+    {
+        "language": "C++",
+        "github": 30,
+        "stackoverflow": 814233,
+        "google_trend": 57500000,
+        "trend_score": 58314263
+    },
+    {
+        "language": "HTML",
+        "github": 30,
+        "stackoverflow": 1191063,
+        "google_trend": 80900000,
+        "trend_score": 82091093
+    },
+    {
+        "language": "CSS",
+        "github": 30,
+        "stackoverflow": 808543,
+        "google_trend": 68100000,
+        "trend_score": 68908573
+    },
+    {
+        "language": "TypeScript",
+        "github": 30,
+        "stackoverflow": 235439,
+        "google_trend": 66900000,
+        "trend_score": 67135469
+    },
+    {
+        "language": "PHP",
+        "github": 30,
+        "stackoverflow": 1469556,
+        "google_trend": 66000000,
+        "trend_score": 67469586
+    },
+    {
+        "language": "Ruby",
+        "github": 30,
+        "stackoverflow": 229382,
+        "google_trend": 52600000,
+        "trend_score": 52829412
+    }
+]
